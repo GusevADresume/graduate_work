@@ -1,0 +1,444 @@
+.App {
+  text-align: center;
+}
+
+@font-face {
+  font-family: "Roboto-reg";
+  src: url("../src/fonts/ofont.ru_Roboto_reg.ttf")
+}
+
+@font-face {
+  font-family: "Roboto-black";
+  src: url("../src/fonts/ofont.ru_Roboto_black.ttf")
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.MainConteiner {
+  width: 95%;
+  max-width: 1480px;
+  min-width: 800px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+
+.TopBar {
+  padding-top: 8px;
+  padding-left: 10px;
+  height: 30px;
+  border-radius: 7px;
+  display: flex;
+  margin-left: 50px;
+}
+
+.AuthBar {
+  margin-left: auto;
+  margin-right: 0%;
+}
+
+.bodyArea {
+  display: flex;
+  height: 90%;
+
+}
+
+.sbarLink{
+  margin-left: 0px !important;
+  color: black;
+}
+
+.dividingLine{
+  border: 1px solid white;
+  margin-top: 15px;
+  margin-bottom: 13px;
+  width: 80%;
+  margin-left: 10%;
+}
+
+.SideBar {
+  
+  font-family: "Roboto-reg";
+  background-color: rgb(244,224,141);
+  width: 120px;
+  height: 80%;
+  text-align: center;
+}
+
+.StorageControls{
+  margin-left: 25px;
+}
+
+.MainPage {
+  display: flex;
+  margin-left: 5%;
+  margin-top: 2%;
+}
+
+.Storage {
+  font-family: "Roboto-reg";
+  margin-top: 25px;
+  margin-left: 4.5%;
+  display: flex;
+  width: 99%;
+  height: 100%
+}
+
+.DropFilesBlock {
+  border-radius: 15px;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  margin-left: 5px;
+}
+
+.DropArea {
+  width: 70%;
+  height: 180px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #9bf79bbd;
+  margin-left: -70%;
+}
+
+.Drop {
+  background-color: #ece9b6;
+}
+
+.loadfileList {
+  margin-left: 10px;
+  height: 180px;
+  width: 100%;
+  font-size: 12px;
+}
+
+.FileList {
+  margin-top: 5px;
+  margin-left: 5px;
+  display: flexbox;
+  
+}
+
+.TableHeader {
+  border: 1px solid rgb(220,207,168);
+  display: flex;
+}
+
+.fileRow {
+  border: 1px solid rgb(220,207,168);
+  display: flex;
+}
+
+.Cell {
+  width: 250px;
+  text-align: center;
+  min-height: 30px;
+  align-items: center;
+}
+
+.Small {
+  font-size: 12px;
+  width: 105px;
+}
+
+.FileInputName{
+  border: none;
+}
+
+.FileInput{
+  border: 2px solid rgb(243,224,142);
+}
+
+.dwloadfile{
+  margin-left: 9px;
+  width: 80px;
+  height: 25px;
+  text-align: center;
+  font-size: 15px;
+  background-color: rgb(243,224,141);
+  padding-right:10px
+}
+
+.dwnloadlink{
+  color: black;
+}
+
+.FileBtn{
+  cursor: pointer;
+  height: 25px;
+  border: none;
+  background-color: rgb(243,224,142);
+}
+
+.FileBtn:active{
+  border: 1px solid;
+}
+
+.UserList {
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+.form {
+  margin-left: 30%;
+}
+
+.nav-link {
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+.Tooltip {
+  position: absolute;
+  display: none;
+  padding: 3px;
+  border-radius: 7px;
+  background-color: #fc8181;
+}
+
+.Active {
+  display: inline-block;
+}
+
+.logo {
+  height: 40px;
+}
+
+.MainContainer {
+  display: block;
+}
+
+.MainHeader {
+  width: 380px;
+  font-family: "Roboto-black";
+  font-size: 35px;
+}
+
+.MainText {
+  font-family: "Roboto-reg";
+  font-weight: normal;
+  margin-left: 5px;
+  width: 350px;
+  font-size: 21px;
+}
+
+.MainImg {
+  margin-left: -35x;
+  width: 990px;
+}
+
+.RegistrationHeader{
+  font: bold;
+  font-size: 22px;
+}
+
+.MainAuth {
+  margin-left: 70px;
+  margin-top: -440px;
+  width: 300px;
+  height: 150px;
+  display: block;
+  padding-top: 4%;
+  text-align: center;
+}
+
+.mainBtn {
+  font-family: "Roboto-reg";
+  font-size: 20px;
+  border: 1px solid;
+  height: 40px;
+  padding-top: 2%;
+}
+
+.colorBtn {
+  color: white;
+}
+
+.regBtn {
+  background-color: rgb(37, 48, 55);
+}
+
+.LoginPage{
+  display: flex;
+}
+
+.logBtn {
+  background-color: rgb(67, 88, 97)
+}
+
+.LoginForm{
+  margin-top: 3%;
+  margin-left: 4%;
+  font-family: "Roboto-reg";
+  width: 670px;
+  height: 540px;
+  padding-left: 35px;
+  background-color: rgb(244,224,141);
+  padding-top: none;
+}
+
+.LogForm{
+  display: block;
+}
+
+.formHeader{
+  margin-top: 40px;
+}
+
+.logFormBtn{
+  cursor: pointer;
+  background-color: rgb(37, 48, 55);
+  margin-top: 45px;
+  margin-left: 50px;
+  width: 65%;
+  height: 50px;
+}
+
+.FormInput{
+  border: none;
+  height: 50px;
+  width: 90%;
+  font-size: 25px;
+}
+
+.password1{
+  margin-top: 10px;
+}
+
+.LogPageImg{
+  margin-top: 25px;
+
+}
+
+.LogImg{
+  height: 550px;
+}
+
+.errorHelp{
+  margin-top: -2px;
+  font-size: 10px;
+  width: 150px;
+  height: 11px;
+}
+
+.LoginHeader{
+  font-family: "Roboto-black";
+  font-size: 25px;
+}
+
+.RegistrationPage{
+  background-color: rgb(244,224,141);
+  font-family: "Roboto-reg";
+  display: block;
+  margin-left: 70px;
+  margin-top: 20px;
+  width: 350px;
+  padding-left: 30px;
+  height: 680px;
+}
+
+.RegButton{
+  margin-top: 25px;
+  cursor: pointer;
+  background-color: rgb(37, 48, 55);
+  color:white;
+  margin-left: 15%;
+  width: 210px;
+  height: 45px;
+  font-size: 15px;
+  cursor: pointer;
+  
+}
+
+.RegFormInput{
+  margin-top: -30px;
+  width: 90%;
+  height: 30px;
+  border: none;
+  font-size: 22px;
+}
+
+.RegistrationBody{
+  display: flex;
+}
+
+.regImg{
+  margin-top: 150px;
+  margin-left: 100px;
+}
+
+.regImage{
+  width: 500px;
+}
+
+.FileArea{
+  margin-top: 25px;
+  padding: 20px;
+  background-color: rgb(251,244,215);
+}
+
+.LoadButtonsBlock{
+  margin-left: 25px;
+}
+
+.LoadButton{
+  cursor: pointer;
+  margin-top: 15px;
+  width: 150px;
+  height: 35px;
+  margin-left: 25px;
+  background-color: rgb(37,49,57);
+  color:white;
+  font-size: 18px;
+}
+
+.LoadButton:active{
+  background-color: bisque;
+}
+
+.AdminArea{
+  font-family: "Roboto-reg";
+  margin-top: 20px;
+  margin-left: 4.5%;
+  display: flex;
+}
